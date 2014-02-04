@@ -6,11 +6,11 @@ VMathQuill is a [Vaadin](http://www.vaadin.com) integration of the [MathQuill](h
 ### Building and installing from source
 
 In order to build the jar file from source run:
-```
+```sh
 mvn packge
 ```
 To install the library on your local machine run:
-```
+```sh
 mvn install
 ```
 
@@ -18,7 +18,7 @@ mvn install
 ### Use the library in your project
 
 Add the following dependency to your maven project:
-```
+```xml
 <dependency>
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>mathquill-integration</artifactId>
